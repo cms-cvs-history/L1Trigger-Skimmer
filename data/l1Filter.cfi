@@ -1,8 +1,0 @@
-
-
-module l1Filter = L1Filter {
-    InputTag inputTag = gtDigis
-    bool useAODRecord = false
-    bool useFinalDecision = false
-    vstring algorithms = { "L1_SingleEG15" }
-}
